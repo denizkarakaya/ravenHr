@@ -15,5 +15,10 @@
     <input type="text" name="userName"><br> <input
         type="submit" value="Login">
 </form>
+
+<form action="addMail" method="post">
+    <input type="text" name="mail"><br> <input
+        type="submit" value="add">
+</form>
 </body>
 </html>

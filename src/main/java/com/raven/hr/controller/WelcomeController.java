@@ -36,4 +36,11 @@ public class WelcomeController {
         model.addAttribute("userName", user.getUserName());
         return "user";
     }
+
+    @RequestMapping(value = "/addMail", method = RequestMethod.POST)
+    public String addMail(@Validated User user, Model model) {
+        System.out.println("Mail Page Requested");
+        model.addAttribute("email", user.getMail());
+        return "mail";
+    }
 }
