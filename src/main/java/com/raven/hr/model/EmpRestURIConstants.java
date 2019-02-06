@@ -1,4 +1,4 @@
-package com.raven.hr.test;
+package com.raven.hr.model;
 
 public class EmpRestURIConstants {
 

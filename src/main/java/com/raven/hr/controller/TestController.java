@@ -1,11 +1,14 @@
-package com.raven.hr.test;
+package com.raven.hr.controller;
 
+import com.raven.hr.model.EmpRestURIConstants;
+import com.raven.hr.model.Employee;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
-import java.util.logging.Logger;
 
-public class Test {
+@Controller
+public class TestController {
 
     //Map to store employees, ideally we should use database
     Map<Integer, Employee> empData = new HashMap<Integer, Employee>();

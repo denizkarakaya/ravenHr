@@ -3,12 +3,11 @@ package com.raven.hr.model;
 public class User {
 
     private String userName;
+    private String mail;
 
     public void setMail(String mail) {
         this.mail = mail;
     }
-
-    private String mail;
 
     public String getUserName() {
         return userName;

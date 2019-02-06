@@ -1,4 +1,4 @@
-package com.raven.hr.test;
+package com.raven.hr.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.DateSerializer;
